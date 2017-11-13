@@ -40,7 +40,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
-
+# my gems
 gem 'stamp'
 
 gem 'bootstrap-sass'

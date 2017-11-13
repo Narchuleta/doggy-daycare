@@ -41,6 +41,14 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+gem 'stamp'
+
+gem 'bootstrap-sass'
+
+gem 'font-awesome-rails'
+
+gem 'jquery-rails'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'

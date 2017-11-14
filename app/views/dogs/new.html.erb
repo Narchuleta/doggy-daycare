@@ -1,18 +1,3 @@
 <h1>Add a New Dog</h1>
 
-<%= form_for @dog do |form_field| %>
-  <%= form_field.label :name %>
-  <%= form_field.text_field :name %>
-  <br>
-  
-  <%= form_field.label :breed %>
-  <%= form_field.text_field :breed %>
-  <br>
-  
-  <%= form_field.label :age %>
-  <%= form_field.number_field :age %>
-  <br>
-  
-  <%= form_field.submit %>
-
-<% end %>
+<%= render 'form' %>

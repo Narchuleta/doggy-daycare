@@ -20,6 +20,7 @@
     <tr>
       <td><%= puppy.id %></td>
       <td><%= puppy.name %></td>
+      <td><%= puppy.owner.try(:name) %></td>
       <td><%= puppy.breed %></td>
       <td><%= puppy.age %></td>
       <td><%= link_to 'show',  dog_path(puppy) %></td>

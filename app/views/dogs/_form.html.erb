@@ -11,8 +11,8 @@
   <%= form_field.number_field :age %>
   <br>
   
-   <%= form_field.label :owner %>
-  <%= form_field.text_field :owner %>
+   <%= form_field.label :owner_id %>
+  <%= form_field.collection_select :owner_id, Owner.all, :id, :name %>
   <br>
   
   <%= form_field.submit %>
